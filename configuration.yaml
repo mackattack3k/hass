@@ -16,5 +16,6 @@ scene: !include scenes.yaml
 withings:
   client_id: !secret WITHINGS_CLIENT
   client_secret: !secret WITHINGS_CONSUMER_SECRET
+  base_url: !secret base_url
   profiles:
     - Marcus
