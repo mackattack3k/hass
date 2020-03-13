@@ -22,3 +22,9 @@ withings:
   verisure:
     username: !secret verisureuser
     password: !secret verisurepass
+
+sensor:
+  - platform: qbittorrent
+    url: !secret qbit_host
+    username: !secret qbit_user
+    password: !secret qbit_pass
