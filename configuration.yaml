@@ -28,3 +28,7 @@ sensor:
     url: !secret qbit_host
     username: !secret qbit_user
     password: !secret qbit_pass
+
+spotify:
+  client_id: !secret spotify_client
+  client_secret: !secret spotify_secret
