@@ -34,3 +34,7 @@ spotify:
   client_secret: !secret spotify_secret
 
 webostv: 10.0.50.14
+
+pi_hole:
+  - host: !secret pi_hole_url
+    api_key: !secret pi_hole_api_key
