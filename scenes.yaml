@@ -1,0 +1,9 @@
+- id: '1582570881423'
+  name: Movie
+  entities:
+    light.sofa_top:
+      friendly_name: Sofa top
+      max_mireds: 454
+      min_mireds: 250
+      state: 'off'
+      supported_features: 35
