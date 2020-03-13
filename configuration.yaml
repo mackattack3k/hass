@@ -39,3 +39,4 @@ webostv:
 pi_hole:
   - host: !secret pi_hole_url
     api_key: !secret pi_hole_api_key
+    ssl: true
