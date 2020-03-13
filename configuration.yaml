@@ -32,3 +32,5 @@ sensor:
 spotify:
   client_id: !secret spotify_client
   client_secret: !secret spotify_secret
+
+webostv: 10.0.50.14
