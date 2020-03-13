@@ -33,7 +33,8 @@ spotify:
   client_id: !secret spotify_client
   client_secret: !secret spotify_secret
 
-webostv: 10.0.50.14
+webostv:
+  host: 10.0.50.14
 
 pi_hole:
   - host: !secret pi_hole_url
