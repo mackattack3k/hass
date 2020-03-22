@@ -47,8 +47,14 @@ sensor:
     api_key: !secret sonarrAPI
     port: 443
     ssl: true
+    monitored_conditions:
+      - upcoming
+      - series
   - platform: radarr
     host: !secret radarrip
     api_key: !secret radarrAPI
     port: 443
     ssl: true
+    monitored_conditions:
+      - upcoming
+      - movies
