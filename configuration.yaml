@@ -40,3 +40,15 @@ pi_hole:
   - host: !secret pi_hole_url
     api_key: !secret pi_hole_api_key
     ssl: true
+
+sensor:
+  - platform: sonarr
+    host: !secret sonarrip
+    api_key: !secret sonarrAPI
+    port: 443
+    ssl: true
+  - platform: radarr
+    host: !secret radarrip
+    api_key: !secret radarrAPI
+    port: 443
+    ssl: true
