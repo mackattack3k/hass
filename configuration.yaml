@@ -28,20 +28,6 @@ sensor:
     url: !secret qbit_host
     username: !secret qbit_user
     password: !secret qbit_pass
-
-spotify:
-  client_id: !secret spotify_client
-  client_secret: !secret spotify_secret
-
-webostv:
-  host: 10.0.50.14
-
-pi_hole:
-  - host: !secret pi_hole_url
-    api_key: !secret pi_hole_api_key
-    ssl: true
-
-sensor:
   - platform: sonarr
     host: !secret sonarrip
     api_key: !secret sonarrAPI
@@ -58,3 +44,15 @@ sensor:
     monitored_conditions:
       - upcoming
       - movies
+
+spotify:
+  client_id: !secret spotify_client
+  client_secret: !secret spotify_secret
+
+webostv:
+  host: 10.0.50.14
+
+pi_hole:
+  - host: !secret pi_hole_url
+    api_key: !secret pi_hole_api_key
+    ssl: true
